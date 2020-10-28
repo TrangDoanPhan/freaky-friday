@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+ul {
+ margin-left: 50px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 80px;
+  margin-left: 170px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  padding: 0 20px;
+}
+
+li a:hover {
+  color: #7E708D;
+
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  padding: 40px;
+}
+
+.paragraf  {
+  text-align: left;
+  font-size: 18px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/*tips*/
+
+.container {
+  margin: 80px;
+  font-size: 18px;
+
+}
+
+.container h3 {
+  padding-top: 20px;
+}
+
+/*omoss*/
+
+.selskap {
+  margin: 20px;
+  margin-left: 50px;
+  font-size: 18px;
+
+}
+
+.utleie{
+    margin-bottom: 50px;
+}
+
+.utleie p {
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 2px;
+
+}
+
+.Tjenester {
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px;
+  color: #417ea3;
+}
+
+/*kontakt*/
+
+.container3 {
+  display: flex;
+
+}
+
+.info {
+  width: 150px;
+  height: 400px;
+  margin: 60px 0px 0px 40px;
+  font-size: 18px;
+
+}
+
+.info h3 {
+  padding-top: 5px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #417ea3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7FB0CD;
+}
+
+.container4 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:700px;
+  margin-left: 230px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+
+}
